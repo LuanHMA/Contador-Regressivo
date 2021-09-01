@@ -151,9 +151,7 @@ header button#logo-contador{
 .delete{
     display: none;
 }
-.modal{
-    background:#21EB00;
-}
+
 @media (max-width: 591px){
     .container-contador .contador{
         flex-direction: column;
