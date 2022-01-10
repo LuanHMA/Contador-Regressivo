@@ -6,8 +6,8 @@ function initCount(){
     let year = fieldDate.value.split('-')[0];
     let month = fieldDate.value.split('-')[1];
     let day = fieldDate.value.split('-')[2];
-
-    if(year < date.getFullYear() || year == '' || month ==' ' || day == ''){
+//      || year == '' || month ==' ' || day == ''
+    if(year < date.getFullYear()){
         alert('Preencha os campos corretamente!')
     }
     else{
