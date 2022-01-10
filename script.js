@@ -7,8 +7,8 @@ function initCount(){
     let month = fieldDate.value.split('-')[1];
     let day = fieldDate.value.split('-')[2];
     
-    if(year > date.getFullYear() || year == '' || month =='' || day == ''){
-        alert('Preencha os campos corretamente!')
+    if(year < date.getFullYear() || year == '' || month =='' || day == ''){
+        alert('Preencha os campos corretamente! Lembre-se que o ano digitado deve ser maior que o atual')
     }
     else{
         dataBase.userDay = day;
